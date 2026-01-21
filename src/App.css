@@ -1,0 +1,89 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Menú simple gris */
+nav {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+/* Contenedor para que no se pegue a los bordes */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Cajas simples para Login y Dashboard */
+.caja {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  max-width: 400px;
+  margin: 20px auto; /* Centrado */
+}
+
+/* Botones estándar */
+button {
+  background-color: #007bff; /* Azul estándar */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.rojo {
+  background-color: #dc3545; /* Rojo estándar */
+}
+
+/* Inputs del formulario */
+input {
+  display: block;
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #999;
+}
+
+/* Lista de usuarios simple */
+.lista-usuarios {
+  list-style-type: none;
+  padding: 0;
+}
+
+.usuario-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
